@@ -1,0 +1,452 @@
+Clients:
+ Client{id=1, timeArrival=30, timeService=5}
+Client{id=2, timeArrival=32, timeService=6}
+Client{id=3, timeArrival=26, timeService=2}
+Client{id=4, timeArrival=4, timeService=3}
+Client{id=5, timeArrival=6, timeService=3}
+Client{id=6, timeArrival=16, timeService=3}
+Client{id=7, timeArrival=29, timeService=3}
+Client{id=8, timeArrival=35, timeService=1}
+Client{id=9, timeArrival=27, timeService=4}
+Client{id=10, timeArrival=16, timeService=4}
+Client{id=11, timeArrival=11, timeService=5}
+Client{id=12, timeArrival=40, timeService=4}
+Client{id=13, timeArrival=26, timeService=1}
+Client{id=14, timeArrival=20, timeService=4}
+Client{id=15, timeArrival=25, timeService=3}
+Client{id=16, timeArrival=22, timeService=2}
+Client{id=17, timeArrival=27, timeService=7}
+Client{id=18, timeArrival=31, timeService=1}
+Client{id=19, timeArrival=28, timeService=5}
+Client{id=20, timeArrival=10, timeService=3}
+Client{id=21, timeArrival=24, timeService=5}
+Client{id=22, timeArrival=34, timeService=7}
+Client{id=23, timeArrival=19, timeService=4}
+Client{id=24, timeArrival=18, timeService=4}
+Client{id=25, timeArrival=27, timeService=6}
+Client{id=26, timeArrival=20, timeService=7}
+Client{id=27, timeArrival=29, timeService=3}
+Client{id=28, timeArrival=20, timeService=3}
+Client{id=29, timeArrival=39, timeService=5}
+Client{id=30, timeArrival=12, timeService=5}
+Client{id=31, timeArrival=27, timeService=2}
+Client{id=32, timeArrival=11, timeService=5}
+Client{id=33, timeArrival=3, timeService=3}
+Client{id=34, timeArrival=23, timeService=3}
+Client{id=35, timeArrival=8, timeService=5}
+Client{id=36, timeArrival=2, timeService=7}
+Client{id=37, timeArrival=30, timeService=6}
+Client{id=38, timeArrival=13, timeService=3}
+Client{id=39, timeArrival=32, timeService=5}
+Client{id=40, timeArrival=24, timeService=7}
+Client{id=41, timeArrival=31, timeService=3}
+Client{id=42, timeArrival=17, timeService=3}
+Client{id=43, timeArrival=17, timeService=4}
+Client{id=44, timeArrival=5, timeService=1}
+Client{id=45, timeArrival=21, timeService=2}
+Client{id=46, timeArrival=18, timeService=2}
+Client{id=47, timeArrival=18, timeService=3}
+Client{id=48, timeArrival=14, timeService=7}
+Client{id=49, timeArrival=25, timeService=6}
+Client{id=50, timeArrival=27, timeService=1}
+
+
+current time: 0
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}, 
+Server 3 {clients=[], waitingPeriod=0}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 1
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}, 
+Server 3 {clients=[], waitingPeriod=0}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 2
+[
+Server 1 {clients=[Client{id=36, timeArrival=2, timeService=7}], waitingPeriod=7}, 
+Server 2 {clients=[], waitingPeriod=0}, 
+Server 3 {clients=[], waitingPeriod=0}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 3
+[
+Server 1 {clients=[Client{id=36, timeArrival=2, timeService=6}], waitingPeriod=6}, 
+Server 2 {clients=[Client{id=33, timeArrival=3, timeService=3}], waitingPeriod=3}, 
+Server 3 {clients=[], waitingPeriod=0}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 4
+[
+Server 1 {clients=[Client{id=36, timeArrival=2, timeService=5}], waitingPeriod=5}, 
+Server 2 {clients=[Client{id=33, timeArrival=3, timeService=2}], waitingPeriod=2}, 
+Server 3 {clients=[Client{id=4, timeArrival=4, timeService=3}], waitingPeriod=3}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 5
+[
+Server 1 {clients=[Client{id=36, timeArrival=2, timeService=4}], waitingPeriod=4}, 
+Server 2 {clients=[Client{id=33, timeArrival=3, timeService=1}], waitingPeriod=1}, 
+Server 3 {clients=[Client{id=4, timeArrival=4, timeService=2}], waitingPeriod=2}, 
+Server 4 {clients=[Client{id=44, timeArrival=5, timeService=1}], waitingPeriod=1}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 6
+[
+Server 1 {clients=[Client{id=36, timeArrival=2, timeService=3}], waitingPeriod=3}, 
+Server 2 {clients=[Client{id=5, timeArrival=6, timeService=3}], waitingPeriod=3}, 
+Server 3 {clients=[Client{id=4, timeArrival=4, timeService=1}], waitingPeriod=1}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 7
+[
+Server 1 {clients=[Client{id=36, timeArrival=2, timeService=2}], waitingPeriod=2}, 
+Server 2 {clients=[Client{id=5, timeArrival=6, timeService=2}], waitingPeriod=2}, 
+Server 3 {clients=[], waitingPeriod=0}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 8
+[
+Server 1 {clients=[Client{id=36, timeArrival=2, timeService=1}], waitingPeriod=1}, 
+Server 2 {clients=[Client{id=5, timeArrival=6, timeService=1}], waitingPeriod=1}, 
+Server 3 {clients=[Client{id=35, timeArrival=8, timeService=5}], waitingPeriod=5}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 9
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}, 
+Server 3 {clients=[Client{id=35, timeArrival=8, timeService=4}], waitingPeriod=4}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 10
+[
+Server 1 {clients=[Client{id=20, timeArrival=10, timeService=3}], waitingPeriod=3}, 
+Server 2 {clients=[], waitingPeriod=0}, 
+Server 3 {clients=[Client{id=35, timeArrival=8, timeService=3}], waitingPeriod=3}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 11
+[
+Server 1 {clients=[Client{id=20, timeArrival=10, timeService=2}], waitingPeriod=2}, 
+Server 2 {clients=[Client{id=11, timeArrival=11, timeService=5}], waitingPeriod=5}, 
+Server 3 {clients=[Client{id=35, timeArrival=8, timeService=2}], waitingPeriod=2}, 
+Server 4 {clients=[Client{id=32, timeArrival=11, timeService=5}], waitingPeriod=5}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+current time: 12
+[
+Server 1 {clients=[Client{id=20, timeArrival=10, timeService=1}], waitingPeriod=1}, 
+Server 2 {clients=[Client{id=11, timeArrival=11, timeService=4}], waitingPeriod=4}, 
+Server 3 {clients=[Client{id=35, timeArrival=8, timeService=1}], waitingPeriod=1}, 
+Server 4 {clients=[Client{id=32, timeArrival=11, timeService=4}], waitingPeriod=4}, 
+Server 5 {clients=[Client{id=30, timeArrival=12, timeService=5}], waitingPeriod=5}]
+
+current time: 13
+[
+Server 1 {clients=[Client{id=38, timeArrival=13, timeService=3}], waitingPeriod=3}, 
+Server 2 {clients=[Client{id=11, timeArrival=11, timeService=3}], waitingPeriod=3}, 
+Server 3 {clients=[], waitingPeriod=0}, 
+Server 4 {clients=[Client{id=32, timeArrival=11, timeService=3}], waitingPeriod=3}, 
+Server 5 {clients=[Client{id=30, timeArrival=12, timeService=4}], waitingPeriod=4}]
+
+current time: 14
+[
+Server 1 {clients=[Client{id=38, timeArrival=13, timeService=2}], waitingPeriod=2}, 
+Server 2 {clients=[Client{id=11, timeArrival=11, timeService=2}], waitingPeriod=2}, 
+Server 3 {clients=[Client{id=48, timeArrival=14, timeService=7}], waitingPeriod=7}, 
+Server 4 {clients=[Client{id=32, timeArrival=11, timeService=2}], waitingPeriod=2}, 
+Server 5 {clients=[Client{id=30, timeArrival=12, timeService=3}], waitingPeriod=3}]
+
+current time: 15
+[
+Server 1 {clients=[Client{id=38, timeArrival=13, timeService=1}], waitingPeriod=1}, 
+Server 2 {clients=[Client{id=11, timeArrival=11, timeService=1}], waitingPeriod=1}, 
+Server 3 {clients=[Client{id=48, timeArrival=14, timeService=6}], waitingPeriod=6}, 
+Server 4 {clients=[Client{id=32, timeArrival=11, timeService=1}], waitingPeriod=1}, 
+Server 5 {clients=[Client{id=30, timeArrival=12, timeService=2}], waitingPeriod=2}]
+
+current time: 16
+[
+Server 1 {clients=[Client{id=6, timeArrival=16, timeService=3}], waitingPeriod=3}, 
+Server 2 {clients=[Client{id=10, timeArrival=16, timeService=4}], waitingPeriod=4}, 
+Server 3 {clients=[Client{id=48, timeArrival=14, timeService=5}], waitingPeriod=5}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[Client{id=30, timeArrival=12, timeService=1}], waitingPeriod=1}]
+
+current time: 17
+[
+Server 1 {clients=[Client{id=6, timeArrival=16, timeService=2}], waitingPeriod=2}, 
+Server 2 {clients=[Client{id=10, timeArrival=16, timeService=3}], waitingPeriod=3}, 
+Server 3 {clients=[Client{id=48, timeArrival=14, timeService=4}], waitingPeriod=4}, 
+Server 4 {clients=[Client{id=42, timeArrival=17, timeService=3}], waitingPeriod=3}, 
+Server 5 {clients=[Client{id=43, timeArrival=17, timeService=4}], waitingPeriod=4}]
+
+current time: 18
+[
+Server 1 {clients=[Client{id=6, timeArrival=16, timeService=1}, Client{id=24, timeArrival=18, timeService=4}], waitingPeriod=5}, 
+Server 2 {clients=[Client{id=10, timeArrival=16, timeService=2}, Client{id=46, timeArrival=18, timeService=2}], waitingPeriod=4}, 
+Server 3 {clients=[Client{id=48, timeArrival=14, timeService=3}], waitingPeriod=3}, 
+Server 4 {clients=[Client{id=42, timeArrival=17, timeService=2}, Client{id=47, timeArrival=18, timeService=3}], waitingPeriod=5}, 
+Server 5 {clients=[Client{id=43, timeArrival=17, timeService=3}], waitingPeriod=3}]
+
+current time: 19
+[
+Server 1 {clients=[Client{id=24, timeArrival=18, timeService=4}], waitingPeriod=4}, 
+Server 2 {clients=[Client{id=10, timeArrival=16, timeService=1}, Client{id=46, timeArrival=18, timeService=2}], waitingPeriod=3}, 
+Server 3 {clients=[Client{id=48, timeArrival=14, timeService=2}, Client{id=23, timeArrival=19, timeService=4}], waitingPeriod=6}, 
+Server 4 {clients=[Client{id=42, timeArrival=17, timeService=1}, Client{id=47, timeArrival=18, timeService=3}], waitingPeriod=4}, 
+Server 5 {clients=[Client{id=43, timeArrival=17, timeService=2}], waitingPeriod=2}]
+
+current time: 20
+[
+Server 1 {clients=[Client{id=24, timeArrival=18, timeService=3}, Client{id=28, timeArrival=20, timeService=3}], waitingPeriod=6}, 
+Server 2 {clients=[Client{id=46, timeArrival=18, timeService=2}, Client{id=26, timeArrival=20, timeService=7}], waitingPeriod=9}, 
+Server 3 {clients=[Client{id=48, timeArrival=14, timeService=1}, Client{id=23, timeArrival=19, timeService=4}], waitingPeriod=5}, 
+Server 4 {clients=[Client{id=47, timeArrival=18, timeService=3}], waitingPeriod=3}, 
+Server 5 {clients=[Client{id=43, timeArrival=17, timeService=1}, Client{id=14, timeArrival=20, timeService=4}], waitingPeriod=5}]
+
+current time: 21
+[
+Server 1 {clients=[Client{id=24, timeArrival=18, timeService=2}, Client{id=28, timeArrival=20, timeService=3}], waitingPeriod=5}, 
+Server 2 {clients=[Client{id=46, timeArrival=18, timeService=1}, Client{id=26, timeArrival=20, timeService=7}], waitingPeriod=8}, 
+Server 3 {clients=[Client{id=23, timeArrival=19, timeService=4}], waitingPeriod=4}, 
+Server 4 {clients=[Client{id=47, timeArrival=18, timeService=2}, Client{id=45, timeArrival=21, timeService=2}], waitingPeriod=4}, 
+Server 5 {clients=[Client{id=14, timeArrival=20, timeService=4}], waitingPeriod=4}]
+
+current time: 22
+[
+Server 1 {clients=[Client{id=24, timeArrival=18, timeService=1}, Client{id=28, timeArrival=20, timeService=3}], waitingPeriod=4}, 
+Server 2 {clients=[Client{id=26, timeArrival=20, timeService=7}], waitingPeriod=7}, 
+Server 3 {clients=[Client{id=23, timeArrival=19, timeService=3}, Client{id=16, timeArrival=22, timeService=2}], waitingPeriod=5}, 
+Server 4 {clients=[Client{id=47, timeArrival=18, timeService=1}, Client{id=45, timeArrival=21, timeService=2}], waitingPeriod=3}, 
+Server 5 {clients=[Client{id=14, timeArrival=20, timeService=3}], waitingPeriod=3}]
+
+current time: 23
+[
+Server 1 {clients=[Client{id=28, timeArrival=20, timeService=3}], waitingPeriod=3}, 
+Server 2 {clients=[Client{id=26, timeArrival=20, timeService=6}], waitingPeriod=6}, 
+Server 3 {clients=[Client{id=23, timeArrival=19, timeService=2}, Client{id=16, timeArrival=22, timeService=2}], waitingPeriod=4}, 
+Server 4 {clients=[Client{id=45, timeArrival=21, timeService=2}, Client{id=34, timeArrival=23, timeService=3}], waitingPeriod=5}, 
+Server 5 {clients=[Client{id=14, timeArrival=20, timeService=2}], waitingPeriod=2}]
+
+current time: 24
+[
+Server 1 {clients=[Client{id=28, timeArrival=20, timeService=2}, Client{id=40, timeArrival=24, timeService=7}], waitingPeriod=9}, 
+Server 2 {clients=[Client{id=26, timeArrival=20, timeService=5}], waitingPeriod=5}, 
+Server 3 {clients=[Client{id=23, timeArrival=19, timeService=1}, Client{id=16, timeArrival=22, timeService=2}], waitingPeriod=3}, 
+Server 4 {clients=[Client{id=45, timeArrival=21, timeService=1}, Client{id=34, timeArrival=23, timeService=3}], waitingPeriod=4}, 
+Server 5 {clients=[Client{id=14, timeArrival=20, timeService=1}, Client{id=21, timeArrival=24, timeService=5}], waitingPeriod=6}]
+
+current time: 25
+[
+Server 1 {clients=[Client{id=28, timeArrival=20, timeService=1}, Client{id=40, timeArrival=24, timeService=7}], waitingPeriod=8}, 
+Server 2 {clients=[Client{id=26, timeArrival=20, timeService=4}], waitingPeriod=4}, 
+Server 3 {clients=[Client{id=16, timeArrival=22, timeService=2}, Client{id=15, timeArrival=25, timeService=3}], waitingPeriod=5}, 
+Server 4 {clients=[Client{id=34, timeArrival=23, timeService=3}, Client{id=49, timeArrival=25, timeService=6}], waitingPeriod=9}, 
+Server 5 {clients=[Client{id=21, timeArrival=24, timeService=5}], waitingPeriod=5}]
+
+current time: 26
+[
+Server 1 {clients=[Client{id=40, timeArrival=24, timeService=7}], waitingPeriod=7}, 
+Server 2 {clients=[Client{id=26, timeArrival=20, timeService=3}, Client{id=3, timeArrival=26, timeService=2}], waitingPeriod=5}, 
+Server 3 {clients=[Client{id=16, timeArrival=22, timeService=1}, Client{id=15, timeArrival=25, timeService=3}, Client{id=13, timeArrival=26, timeService=1}], waitingPeriod=5}, 
+Server 4 {clients=[Client{id=34, timeArrival=23, timeService=2}, Client{id=49, timeArrival=25, timeService=6}], waitingPeriod=8}, 
+Server 5 {clients=[Client{id=21, timeArrival=24, timeService=4}], waitingPeriod=4}]
+
+current time: 27
+[
+Server 1 {clients=[Client{id=40, timeArrival=24, timeService=6}, Client{id=31, timeArrival=27, timeService=2}], waitingPeriod=8}, 
+Server 2 {clients=[Client{id=26, timeArrival=20, timeService=2}, Client{id=3, timeArrival=26, timeService=2}, Client{id=17, timeArrival=27, timeService=7}], waitingPeriod=11}, 
+Server 3 {clients=[Client{id=15, timeArrival=25, timeService=3}, Client{id=13, timeArrival=26, timeService=1}, Client{id=25, timeArrival=27, timeService=6}], waitingPeriod=10}, 
+Server 4 {clients=[Client{id=34, timeArrival=23, timeService=1}, Client{id=49, timeArrival=25, timeService=6}], waitingPeriod=7}, 
+Server 5 {clients=[Client{id=21, timeArrival=24, timeService=3}, Client{id=9, timeArrival=27, timeService=4}, Client{id=50, timeArrival=27, timeService=1}], waitingPeriod=8}]
+
+current time: 28
+[
+Server 1 {clients=[Client{id=40, timeArrival=24, timeService=5}, Client{id=31, timeArrival=27, timeService=2}], waitingPeriod=7}, 
+Server 2 {clients=[Client{id=26, timeArrival=20, timeService=1}, Client{id=3, timeArrival=26, timeService=2}, Client{id=17, timeArrival=27, timeService=7}], waitingPeriod=10}, 
+Server 3 {clients=[Client{id=15, timeArrival=25, timeService=2}, Client{id=13, timeArrival=26, timeService=1}, Client{id=25, timeArrival=27, timeService=6}], waitingPeriod=9}, 
+Server 4 {clients=[Client{id=49, timeArrival=25, timeService=6}, Client{id=19, timeArrival=28, timeService=5}], waitingPeriod=11}, 
+Server 5 {clients=[Client{id=21, timeArrival=24, timeService=2}, Client{id=9, timeArrival=27, timeService=4}, Client{id=50, timeArrival=27, timeService=1}], waitingPeriod=7}]
+
+current time: 29
+[
+Server 1 {clients=[Client{id=40, timeArrival=24, timeService=4}, Client{id=31, timeArrival=27, timeService=2}, Client{id=7, timeArrival=29, timeService=3}], waitingPeriod=9}, 
+Server 2 {clients=[Client{id=3, timeArrival=26, timeService=2}, Client{id=17, timeArrival=27, timeService=7}], waitingPeriod=9}, 
+Server 3 {clients=[Client{id=15, timeArrival=25, timeService=1}, Client{id=13, timeArrival=26, timeService=1}, Client{id=25, timeArrival=27, timeService=6}], waitingPeriod=8}, 
+Server 4 {clients=[Client{id=49, timeArrival=25, timeService=5}, Client{id=19, timeArrival=28, timeService=5}], waitingPeriod=10}, 
+Server 5 {clients=[Client{id=21, timeArrival=24, timeService=1}, Client{id=9, timeArrival=27, timeService=4}, Client{id=50, timeArrival=27, timeService=1}, Client{id=27, timeArrival=29, timeService=3}], waitingPeriod=9}]
+
+current time: 30
+[
+Server 1 {clients=[Client{id=40, timeArrival=24, timeService=3}, Client{id=31, timeArrival=27, timeService=2}, Client{id=7, timeArrival=29, timeService=3}, Client{id=37, timeArrival=30, timeService=6}], waitingPeriod=14}, 
+Server 2 {clients=[Client{id=3, timeArrival=26, timeService=1}, Client{id=17, timeArrival=27, timeService=7}], waitingPeriod=8}, 
+Server 3 {clients=[Client{id=13, timeArrival=26, timeService=1}, Client{id=25, timeArrival=27, timeService=6}, Client{id=1, timeArrival=30, timeService=5}], waitingPeriod=12}, 
+Server 4 {clients=[Client{id=49, timeArrival=25, timeService=4}, Client{id=19, timeArrival=28, timeService=5}], waitingPeriod=9}, 
+Server 5 {clients=[Client{id=9, timeArrival=27, timeService=4}, Client{id=50, timeArrival=27, timeService=1}, Client{id=27, timeArrival=29, timeService=3}], waitingPeriod=8}]
+
+current time: 31
+[
+Server 1 {clients=[Client{id=40, timeArrival=24, timeService=2}, Client{id=31, timeArrival=27, timeService=2}, Client{id=7, timeArrival=29, timeService=3}, Client{id=37, timeArrival=30, timeService=6}], waitingPeriod=13}, 
+Server 2 {clients=[Client{id=17, timeArrival=27, timeService=7}, Client{id=18, timeArrival=31, timeService=1}], waitingPeriod=8}, 
+Server 3 {clients=[Client{id=25, timeArrival=27, timeService=6}, Client{id=1, timeArrival=30, timeService=5}], waitingPeriod=11}, 
+Server 4 {clients=[Client{id=49, timeArrival=25, timeService=3}, Client{id=19, timeArrival=28, timeService=5}], waitingPeriod=8}, 
+Server 5 {clients=[Client{id=9, timeArrival=27, timeService=3}, Client{id=50, timeArrival=27, timeService=1}, Client{id=27, timeArrival=29, timeService=3}, Client{id=41, timeArrival=31, timeService=3}], waitingPeriod=10}]
+
+current time: 32
+[
+Server 1 {clients=[Client{id=40, timeArrival=24, timeService=1}, Client{id=31, timeArrival=27, timeService=2}, Client{id=7, timeArrival=29, timeService=3}, Client{id=37, timeArrival=30, timeService=6}], waitingPeriod=12}, 
+Server 2 {clients=[Client{id=17, timeArrival=27, timeService=6}, Client{id=18, timeArrival=31, timeService=1}, Client{id=2, timeArrival=32, timeService=6}], waitingPeriod=13}, 
+Server 3 {clients=[Client{id=25, timeArrival=27, timeService=5}, Client{id=1, timeArrival=30, timeService=5}], waitingPeriod=10}, 
+Server 4 {clients=[Client{id=49, timeArrival=25, timeService=2}, Client{id=19, timeArrival=28, timeService=5}, Client{id=39, timeArrival=32, timeService=5}], waitingPeriod=12}, 
+Server 5 {clients=[Client{id=9, timeArrival=27, timeService=2}, Client{id=50, timeArrival=27, timeService=1}, Client{id=27, timeArrival=29, timeService=3}, Client{id=41, timeArrival=31, timeService=3}], waitingPeriod=9}]
+
+current time: 33
+[
+Server 1 {clients=[Client{id=31, timeArrival=27, timeService=2}, Client{id=7, timeArrival=29, timeService=3}, Client{id=37, timeArrival=30, timeService=6}], waitingPeriod=11}, 
+Server 2 {clients=[Client{id=17, timeArrival=27, timeService=5}, Client{id=18, timeArrival=31, timeService=1}, Client{id=2, timeArrival=32, timeService=6}], waitingPeriod=12}, 
+Server 3 {clients=[Client{id=25, timeArrival=27, timeService=4}, Client{id=1, timeArrival=30, timeService=5}], waitingPeriod=9}, 
+Server 4 {clients=[Client{id=49, timeArrival=25, timeService=1}, Client{id=19, timeArrival=28, timeService=5}, Client{id=39, timeArrival=32, timeService=5}], waitingPeriod=11}, 
+Server 5 {clients=[Client{id=9, timeArrival=27, timeService=1}, Client{id=50, timeArrival=27, timeService=1}, Client{id=27, timeArrival=29, timeService=3}, Client{id=41, timeArrival=31, timeService=3}], waitingPeriod=8}]
+
+current time: 34
+[
+Server 1 {clients=[Client{id=31, timeArrival=27, timeService=1}, Client{id=7, timeArrival=29, timeService=3}, Client{id=37, timeArrival=30, timeService=6}], waitingPeriod=10}, 
+Server 2 {clients=[Client{id=17, timeArrival=27, timeService=4}, Client{id=18, timeArrival=31, timeService=1}, Client{id=2, timeArrival=32, timeService=6}], waitingPeriod=11}, 
+Server 3 {clients=[Client{id=25, timeArrival=27, timeService=3}, Client{id=1, timeArrival=30, timeService=5}], waitingPeriod=8}, 
+Server 4 {clients=[Client{id=19, timeArrival=28, timeService=5}, Client{id=39, timeArrival=32, timeService=5}], waitingPeriod=10}, 
+Server 5 {clients=[Client{id=50, timeArrival=27, timeService=1}, Client{id=27, timeArrival=29, timeService=3}, Client{id=41, timeArrival=31, timeService=3}, Client{id=22, timeArrival=34, timeService=7}], waitingPeriod=14}]
+
+current time: 35
+[
+Server 1 {clients=[Client{id=7, timeArrival=29, timeService=3}, Client{id=37, timeArrival=30, timeService=6}], waitingPeriod=9}, 
+Server 2 {clients=[Client{id=17, timeArrival=27, timeService=3}, Client{id=18, timeArrival=31, timeService=1}, Client{id=2, timeArrival=32, timeService=6}], waitingPeriod=10}, 
+Server 3 {clients=[Client{id=25, timeArrival=27, timeService=2}, Client{id=1, timeArrival=30, timeService=5}, Client{id=8, timeArrival=35, timeService=1}], waitingPeriod=8}, 
+Server 4 {clients=[Client{id=19, timeArrival=28, timeService=4}, Client{id=39, timeArrival=32, timeService=5}], waitingPeriod=9}, 
+Server 5 {clients=[Client{id=27, timeArrival=29, timeService=3}, Client{id=41, timeArrival=31, timeService=3}, Client{id=22, timeArrival=34, timeService=7}], waitingPeriod=13}]
+
+current time: 36
+[
+Server 1 {clients=[Client{id=7, timeArrival=29, timeService=2}, Client{id=37, timeArrival=30, timeService=6}], waitingPeriod=8}, 
+Server 2 {clients=[Client{id=17, timeArrival=27, timeService=2}, Client{id=18, timeArrival=31, timeService=1}, Client{id=2, timeArrival=32, timeService=6}], waitingPeriod=9}, 
+Server 3 {clients=[Client{id=25, timeArrival=27, timeService=1}, Client{id=1, timeArrival=30, timeService=5}, Client{id=8, timeArrival=35, timeService=1}], waitingPeriod=7}, 
+Server 4 {clients=[Client{id=19, timeArrival=28, timeService=3}, Client{id=39, timeArrival=32, timeService=5}], waitingPeriod=8}, 
+Server 5 {clients=[Client{id=27, timeArrival=29, timeService=2}, Client{id=41, timeArrival=31, timeService=3}, Client{id=22, timeArrival=34, timeService=7}], waitingPeriod=12}]
+
+current time: 37
+[
+Server 1 {clients=[Client{id=7, timeArrival=29, timeService=1}, Client{id=37, timeArrival=30, timeService=6}], waitingPeriod=7}, 
+Server 2 {clients=[Client{id=17, timeArrival=27, timeService=1}, Client{id=18, timeArrival=31, timeService=1}, Client{id=2, timeArrival=32, timeService=6}], waitingPeriod=8}, 
+Server 3 {clients=[Client{id=1, timeArrival=30, timeService=5}, Client{id=8, timeArrival=35, timeService=1}], waitingPeriod=6}, 
+Server 4 {clients=[Client{id=19, timeArrival=28, timeService=2}, Client{id=39, timeArrival=32, timeService=5}], waitingPeriod=7}, 
+Server 5 {clients=[Client{id=27, timeArrival=29, timeService=1}, Client{id=41, timeArrival=31, timeService=3}, Client{id=22, timeArrival=34, timeService=7}], waitingPeriod=11}]
+
+current time: 38
+[
+Server 1 {clients=[Client{id=37, timeArrival=30, timeService=6}], waitingPeriod=6}, 
+Server 2 {clients=[Client{id=18, timeArrival=31, timeService=1}, Client{id=2, timeArrival=32, timeService=6}], waitingPeriod=7}, 
+Server 3 {clients=[Client{id=1, timeArrival=30, timeService=4}, Client{id=8, timeArrival=35, timeService=1}], waitingPeriod=5}, 
+Server 4 {clients=[Client{id=19, timeArrival=28, timeService=1}, Client{id=39, timeArrival=32, timeService=5}], waitingPeriod=6}, 
+Server 5 {clients=[Client{id=41, timeArrival=31, timeService=3}, Client{id=22, timeArrival=34, timeService=7}], waitingPeriod=10}]
+
+current time: 39
+[
+Server 1 {clients=[Client{id=37, timeArrival=30, timeService=5}], waitingPeriod=5}, 
+Server 2 {clients=[Client{id=2, timeArrival=32, timeService=6}], waitingPeriod=6}, 
+Server 3 {clients=[Client{id=1, timeArrival=30, timeService=3}, Client{id=8, timeArrival=35, timeService=1}, Client{id=29, timeArrival=39, timeService=5}], waitingPeriod=9}, 
+Server 4 {clients=[Client{id=39, timeArrival=32, timeService=5}], waitingPeriod=5}, 
+Server 5 {clients=[Client{id=41, timeArrival=31, timeService=2}, Client{id=22, timeArrival=34, timeService=7}], waitingPeriod=9}]
+
+current time: 40
+[
+Server 1 {clients=[Client{id=37, timeArrival=30, timeService=4}, Client{id=12, timeArrival=40, timeService=4}], waitingPeriod=8}, 
+Server 2 {clients=[Client{id=2, timeArrival=32, timeService=5}], waitingPeriod=5}, 
+Server 3 {clients=[Client{id=1, timeArrival=30, timeService=2}, Client{id=8, timeArrival=35, timeService=1}, Client{id=29, timeArrival=39, timeService=5}], waitingPeriod=8}, 
+Server 4 {clients=[Client{id=39, timeArrival=32, timeService=4}], waitingPeriod=4}, 
+Server 5 {clients=[Client{id=41, timeArrival=31, timeService=1}, Client{id=22, timeArrival=34, timeService=7}], waitingPeriod=8}]
+
+current time: 41
+[
+Server 1 {clients=[Client{id=37, timeArrival=30, timeService=3}, Client{id=12, timeArrival=40, timeService=4}], waitingPeriod=7}, 
+Server 2 {clients=[Client{id=2, timeArrival=32, timeService=4}], waitingPeriod=4}, 
+Server 3 {clients=[Client{id=1, timeArrival=30, timeService=1}, Client{id=8, timeArrival=35, timeService=1}, Client{id=29, timeArrival=39, timeService=5}], waitingPeriod=7}, 
+Server 4 {clients=[Client{id=39, timeArrival=32, timeService=3}], waitingPeriod=3}, 
+Server 5 {clients=[Client{id=22, timeArrival=34, timeService=7}], waitingPeriod=7}]
+
+current time: 42
+[
+Server 1 {clients=[Client{id=37, timeArrival=30, timeService=2}, Client{id=12, timeArrival=40, timeService=4}], waitingPeriod=6}, 
+Server 2 {clients=[Client{id=2, timeArrival=32, timeService=3}], waitingPeriod=3}, 
+Server 3 {clients=[Client{id=8, timeArrival=35, timeService=1}, Client{id=29, timeArrival=39, timeService=5}], waitingPeriod=6}, 
+Server 4 {clients=[Client{id=39, timeArrival=32, timeService=2}], waitingPeriod=2}, 
+Server 5 {clients=[Client{id=22, timeArrival=34, timeService=6}], waitingPeriod=6}]
+
+current time: 43
+[
+Server 1 {clients=[Client{id=37, timeArrival=30, timeService=1}, Client{id=12, timeArrival=40, timeService=4}], waitingPeriod=5}, 
+Server 2 {clients=[Client{id=2, timeArrival=32, timeService=2}], waitingPeriod=2}, 
+Server 3 {clients=[Client{id=29, timeArrival=39, timeService=5}], waitingPeriod=5}, 
+Server 4 {clients=[Client{id=39, timeArrival=32, timeService=1}], waitingPeriod=1}, 
+Server 5 {clients=[Client{id=22, timeArrival=34, timeService=5}], waitingPeriod=5}]
+
+current time: 44
+[
+Server 1 {clients=[Client{id=12, timeArrival=40, timeService=4}], waitingPeriod=4}, 
+Server 2 {clients=[Client{id=2, timeArrival=32, timeService=1}], waitingPeriod=1}, 
+Server 3 {clients=[Client{id=29, timeArrival=39, timeService=4}], waitingPeriod=4}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[Client{id=22, timeArrival=34, timeService=4}], waitingPeriod=4}]
+
+current time: 45
+[
+Server 1 {clients=[Client{id=12, timeArrival=40, timeService=3}], waitingPeriod=3}, 
+Server 2 {clients=[], waitingPeriod=0}, 
+Server 3 {clients=[Client{id=29, timeArrival=39, timeService=3}], waitingPeriod=3}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[Client{id=22, timeArrival=34, timeService=3}], waitingPeriod=3}]
+
+current time: 46
+[
+Server 1 {clients=[Client{id=12, timeArrival=40, timeService=2}], waitingPeriod=2}, 
+Server 2 {clients=[], waitingPeriod=0}, 
+Server 3 {clients=[Client{id=29, timeArrival=39, timeService=2}], waitingPeriod=2}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[Client{id=22, timeArrival=34, timeService=2}], waitingPeriod=2}]
+
+current time: 47
+[
+Server 1 {clients=[Client{id=12, timeArrival=40, timeService=1}], waitingPeriod=1}, 
+Server 2 {clients=[], waitingPeriod=0}, 
+Server 3 {clients=[Client{id=29, timeArrival=39, timeService=1}], waitingPeriod=1}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[Client{id=22, timeArrival=34, timeService=1}], waitingPeriod=1}]
+
+current time: 48
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}, 
+Server 3 {clients=[], waitingPeriod=0}, 
+Server 4 {clients=[], waitingPeriod=0}, 
+Server 5 {clients=[], waitingPeriod=0}]
+
+Average waiting time: 2.84
+
+Average processing time: 6.76
+
+Peak Hour: 32
+
+
