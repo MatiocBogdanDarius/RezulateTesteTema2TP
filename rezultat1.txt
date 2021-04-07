@@ -1,0 +1,149 @@
+Clients:
+ Client{id=1, timeArrival=24, timeService=2}
+Client{id=2, timeArrival=4, timeService=2}
+Client{id=3, timeArrival=22, timeService=3}
+Client{id=4, timeArrival=11, timeService=3}
+
+
+current time: 0
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 1
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 2
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 3
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 4
+[
+Server 1 {clients=[Client{id=2, timeArrival=4, timeService=2}], waitingPeriod=2}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 5
+[
+Server 1 {clients=[Client{id=2, timeArrival=4, timeService=1}], waitingPeriod=1}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 6
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 7
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 8
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 9
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 10
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 11
+[
+Server 1 {clients=[Client{id=4, timeArrival=11, timeService=3}], waitingPeriod=3}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 12
+[
+Server 1 {clients=[Client{id=4, timeArrival=11, timeService=2}], waitingPeriod=2}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 13
+[
+Server 1 {clients=[Client{id=4, timeArrival=11, timeService=1}], waitingPeriod=1}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 14
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 15
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 16
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 17
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 18
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 19
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 20
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 21
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 22
+[
+Server 1 {clients=[Client{id=3, timeArrival=22, timeService=3}], waitingPeriod=3}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 23
+[
+Server 1 {clients=[Client{id=3, timeArrival=22, timeService=2}], waitingPeriod=2}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+current time: 24
+[
+Server 1 {clients=[Client{id=3, timeArrival=22, timeService=1}], waitingPeriod=1}, 
+Server 2 {clients=[Client{id=1, timeArrival=24, timeService=2}], waitingPeriod=2}]
+
+current time: 25
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[Client{id=1, timeArrival=24, timeService=1}], waitingPeriod=1}]
+
+current time: 26
+[
+Server 1 {clients=[], waitingPeriod=0}, 
+Server 2 {clients=[], waitingPeriod=0}]
+
+Average waiting time: 0.0
+
+Average processing time: 2.5
+
+Peak Hour: 24
+
+
